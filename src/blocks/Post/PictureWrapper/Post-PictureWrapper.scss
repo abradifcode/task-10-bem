@@ -1,0 +1,27 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post-PictureWrapper {
+  grid-area: img;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+  @media (min-width: 400px) {
+    width: 30%;
+    max-height: 100px;
+    order: -1;
+    align-items: center;
+  }
+
+  @media (min-width: $bp-bigphone) {
+    align-items: flex-end;
+    width: 100%;
+    max-height: none;
+    margin-right: 0;
+    order: 0;
+    align-items: flex-start;
+  }
+}

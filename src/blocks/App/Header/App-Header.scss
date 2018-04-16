@@ -1,0 +1,11 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.App-Header {
+  display: flex;
+  align-items: center;
+  min-height: 75px;
+
+  @media (min-width: $bp-tablet) {
+    min-height: 110px;
+  }
+}

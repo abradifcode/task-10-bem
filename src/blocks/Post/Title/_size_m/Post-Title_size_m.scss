@@ -1,0 +1,7 @@
+.Post-Title_size_m {
+  max-height: calc(17px * 1.4 * 3); /* 3 строчки */
+
+  @media (min-width: 400px) {
+    margin-bottom: 0;
+  }
+}

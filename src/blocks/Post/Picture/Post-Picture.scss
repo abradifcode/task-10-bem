@@ -1,0 +1,15 @@
+.Post-Picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.Post-Image {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+

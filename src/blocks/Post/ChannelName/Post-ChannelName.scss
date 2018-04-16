@@ -1,0 +1,18 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post-ChannelName {
+  margin: 0;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  flex-shrink: 0;
+
+  @media (min-width: 400px) {
+    padding-right: 95px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    margin: 16px 0;
+  }
+}

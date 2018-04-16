@@ -1,0 +1,23 @@
+@import '../Global/Vars/Global-Vars.scss';
+
+.Post {
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: $bp-tablet) {
+    height: 245px;
+    grid-column: span 2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  @media (min-width: $bp-desktop-s) {
+    height: auto;
+    max-height: 180px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+  }
+}

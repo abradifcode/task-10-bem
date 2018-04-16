@@ -1,0 +1,97 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post_size_s {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+          "title"
+          "content";
+
+  @media (min-width: $bp-bigphone) {
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: span 1;
+    grid-gap: 10px;
+  }
+
+  @media (min-width: $bp-phablet) {
+    grid-column: span 2;
+  }
+
+  @media (min-width: $bp-tablet) {
+    display: flex;
+    height: 230px;
+    margin-bottom: 40px;
+    grid-column: span 2;
+  }
+
+  @media (min-width: $bp-desktop-s) {
+    margin-bottom: 0;
+    grid-gap: 20px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    grid-column: span 2;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    min-height: 0;
+    height: 180px;
+  }
+
+  &.Post_hasImage {
+    min-height: 0;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+          "img title"
+          "content content";
+
+    @media (min-width: 400px) {
+      grid-template-areas:
+          "img title"
+          "img content";
+    }
+
+    @media (min-width: $bp-bigphone) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+          "title"
+          "img"
+          "content";
+    }
+
+    @media (min-width: $bp-phablet) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      grid-template-areas:
+          "img title"
+          "img content";
+    }
+
+    @media (min-width: $bp-tablet) {
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: $bp-desktop-s) {
+      min-height: 100px;
+      height: auto;
+      display: grid;
+      grid-row-gap: 0;
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      grid-template-areas:
+          "img title"
+          "img content";
+    }
+
+    @media (min-width: $bp-desktop-l) {
+      height: 180px;
+      min-height: 0;
+      grid-column-gap: 30px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Description_size_s {
+  margin-top: 5px;
+  line-height: 1.45;
+
+  @media (min-width: $bp-bigphone) {
+    max-height: 140px;
+  }
+
+  @media (min-width: $bp-tablet) {
+    max-height: 160px;
+  }
+
+  @media (min-width: $bp-desktop-s) {
+    max-height: 120px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    max-height: 90px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    max-height: 170px;
+  }
+
+  .Post_hasImage & {
+    margin-top: 5px;
+  }
+}

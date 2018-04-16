@@ -1,0 +1,18 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-PictureWrapper_size_m {
+  width: auto;
+  margin-bottom: 5px;
+
+  @media (min-width: 400px) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $bp-phablet) {
+    align-self: stretch;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    max-height: none;
+  }
+}

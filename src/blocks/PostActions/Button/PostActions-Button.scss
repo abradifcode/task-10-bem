@@ -1,0 +1,34 @@
+.PostActions-Button {
+  position: relative;
+  width: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: #D3D3D3;
+  cursor: pointer;
+
+  &:hover {
+    color: #777;
+  }
+  &:focus {
+    outline: none;
+    color: #333;
+    box-shadow: 0 0 0 2px steelblue;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    bottom: -5px;
+    left: -10px;
+  }
+}
