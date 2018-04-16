@@ -1,0 +1,16 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Actions_size_m {
+
+  @media (min-width: $bp-desktop-s) {
+    width: 65px;
+    margin-left: auto;
+    flex-direction: row;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    width: 35px;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+}

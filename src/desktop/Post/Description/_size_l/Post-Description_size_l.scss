@@ -1,0 +1,16 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Description_size_l {
+
+  @media (min-width: $bp-desktop-s) {
+    max-height: 105px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    max-height: 70px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    max-height: 75px;
+  }
+}

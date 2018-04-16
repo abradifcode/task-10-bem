@@ -1,0 +1,12 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Content_size_m {
+
+  @media (min-width: $bp-desktop-s) {
+    flex-direction: column;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    flex-direction: row;
+  }
+}

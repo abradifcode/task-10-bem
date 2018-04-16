@@ -1,0 +1,8 @@
+@import '../Global/Vars/Global-Vars.scss';
+
+.Posts {
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(auto-fill, 105px);
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Description_size_m {
+
+  @media (min-width: $bp-desktop-s) {
+    max-height: 90px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    max-height: 70px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    max-height: 120px;
+  }
+
+  @media (min-width: $bp-desktop-xl) {
+    max-height: 100px;
+  }
+}

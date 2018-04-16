@@ -1,0 +1,8 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Description_size_s {
+
+  @media (min-width: $bp-tablet) {
+    max-height: 160px;
+  }
+}

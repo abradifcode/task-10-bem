@@ -1,0 +1,8 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-PictureWrapper_size_m {
+
+  @media (min-width: $bp-desktop-l) {
+    max-height: none;
+  }
+}

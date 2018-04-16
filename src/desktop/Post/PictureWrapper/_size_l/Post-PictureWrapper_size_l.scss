@@ -1,0 +1,10 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-PictureWrapper_size_l {
+
+  @media (min-width: $bp-desktop-s) {
+    justify-content: flex-start;
+  }
+}
+
+

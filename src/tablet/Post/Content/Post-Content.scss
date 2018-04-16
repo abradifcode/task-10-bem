@@ -1,0 +1,8 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post-Content {
+
+  @media (min-width: $bp-tablet) {
+    flex-direction: row;
+  }
+}

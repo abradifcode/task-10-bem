@@ -1,0 +1,9 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Actions_size_l {
+
+  @media (min-width: $bp-desktop-s) {
+    width: 65px;
+    margin-right: 0;
+  }
+}

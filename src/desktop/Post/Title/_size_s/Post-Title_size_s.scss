@@ -1,0 +1,25 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Title_size_s {
+
+  @media (min-width: $bp-desktop-s) {
+    line-height: inherit;
+    max-height: calc(17px * 1.4 * 2); /* 2 строки */
+  }
+}
+
+.Post_hasImage .Post-Title_size_s {
+
+  @media (min-width: $bp-desktop-s) {
+    max-height: calc(17px * 1.4 * 6); /* 6 строк */
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    max-height: calc(17px * 1.4 * 5); /* 5 строк */
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    position: static;
+    max-height: calc(17px * 1.4 * 6); /* 6 строк */
+  }
+}

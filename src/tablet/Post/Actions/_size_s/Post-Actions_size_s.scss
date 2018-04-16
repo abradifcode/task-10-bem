@@ -1,0 +1,12 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post_hasImage  .Post-Actions_size_s {
+
+  @media (min-width: $bp-tablet) {
+    width: 35px;
+    padding-bottom: 8px;
+    margin-right: 0;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}

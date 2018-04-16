@@ -1,0 +1,17 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post_size_s {
+
+  @media (min-width: $bp-tablet) {
+    display: flex;
+    height: 230px;
+    margin-bottom: 40px;
+    grid-column: span 2;
+  }
+
+  &.Post_hasImage {
+    @media (min-width: $bp-tablet) {
+      flex-wrap: wrap;
+    }
+  }
+}

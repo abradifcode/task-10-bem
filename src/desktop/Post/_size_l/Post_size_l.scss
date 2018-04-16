@@ -1,0 +1,22 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post_size_l {
+
+  @media (min-width: $bp-desktop-s) {
+    margin-bottom: 0;
+    grid-column-gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "img title"
+        "img content";
+    grid-column: span 6;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    grid-column: span 4;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    grid-column-gap: 30px;
+  }
+}

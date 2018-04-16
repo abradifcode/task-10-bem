@@ -1,0 +1,17 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Content_size_s {
+
+  @media (min-width: $bp-tablet) {
+    flex-direction: column;
+  }
+}
+
+.Post_hasImage .Post-Content_size_s {
+
+  @media (min-width: $bp-tablet) {
+    width: 35px;
+    margin-left: auto;
+    flex-grow: 1;
+  }
+}

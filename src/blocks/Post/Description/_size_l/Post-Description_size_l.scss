@@ -7,21 +7,4 @@
   @media (min-width: $bp-bigphone) {
     max-height: 40px;
   }
-
-  @media (min-width: $bp-tablet) {
-    max-height: 160px;
-    line-height: 1.45;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    max-height: 105px;
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    max-height: 70px;
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    max-height: 75px;
-  }
 }

@@ -27,17 +27,4 @@
   @media (min-width: 400px) {
     flex-grow: 0;
   }
-
-  @media (min-width: $bp-tablet) {
-    width: 35px;
-    padding-bottom: 8px;
-    margin-right: 0;
-    flex-direction: column;
-    flex-grow: 1;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    width: 65px;
-    flex-direction: row;
-  }
 }

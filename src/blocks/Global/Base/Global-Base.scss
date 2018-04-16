@@ -6,18 +6,6 @@ BODY {
   background: #FFF;
   font:  14px/1.4 "YS Text", Arial, sans-serif;
   color: #000;
-
-  @media (min-width: $bp-desktop-s) {
-    font-size: 15px;
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    font-size: 16px;
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    font-size: 17px;
-  }
 }
 
 IMG {

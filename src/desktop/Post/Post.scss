@@ -1,0 +1,12 @@
+@import '../Global/Vars/Global-Vars.scss';
+
+.Post {
+
+  @media (min-width: $bp-desktop-s) {
+    height: auto;
+    max-height: 180px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+  }
+}

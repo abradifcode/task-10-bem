@@ -1,0 +1,15 @@
+@import '../Vars/Global-Vars.scss';
+
+BODY {
+  @media (min-width: $bp-desktop-s) {
+    font-size: 15px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    font-size: 16px;
+  }
+
+  @media (min-width: $bp-desktop-l) {
+    font-size: 17px;
+  }
+}

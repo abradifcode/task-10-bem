@@ -1,0 +1,7 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.App-Header {
+  @media (min-width: $bp-tablet) {
+    min-height: 110px;
+  }
+}

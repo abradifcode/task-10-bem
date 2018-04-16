@@ -31,45 +31,4 @@
         "title title"
         "img content";
   }
-
-  @media (min-width: $bp-tablet) {
-    height: 310px;
-    margin-bottom: 25px;
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr;
-    grid-column: span 3;
-    grid-template-areas:
-        "title"
-        "img"
-        "content";
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    height: auto;
-    margin-bottom: 0;
-    grid-column: span 3;
-    grid-column-gap: 25px;
-    grid-template-columns: repeat(2, 1fr);
-
-    grid-template-areas:
-        "title title"
-        "img content";
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    grid-column: span 3;
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    height: 180px;
-    grid-column-gap: 30px;
-    flex-direction: column;
-  }
-
-  @media (min-width: $bp-desktop-xl) {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-        "img title title"
-        "img content content";
-  }
 }

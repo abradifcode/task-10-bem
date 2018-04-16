@@ -1,0 +1,8 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Content_size_l {
+
+  @media (min-width: $bp-tablet) {
+    flex-grow: 1;
+  }
+}

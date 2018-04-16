@@ -79,8 +79,6 @@
     if (!isResizeWaiting) {
       isResizeWaiting = true;
 
-      console.log('=== cutByResize()');
-
       setTimeout(() => {
         isResizeWaiting = false;
         cutTitles();

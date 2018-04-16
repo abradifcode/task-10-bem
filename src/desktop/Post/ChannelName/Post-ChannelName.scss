@@ -1,0 +1,8 @@
+@import '../../Global/Vars/Global-Vars.scss';
+
+.Post-ChannelName {
+
+  @media (min-width: $bp-desktop-s) {
+    height: 25px;
+  }
+}

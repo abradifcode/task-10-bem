@@ -12,26 +12,4 @@
     grid-column-gap: 15px;
     grid-auto-flow: dense;
   }
-
-  @media (min-width: $bp-tablet) {
-    grid-template-columns: repeat(auto-fill, 105px);
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    grid-gap: 25px;
-    grid-template-columns: repeat(auto-fill, 145px);
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    grid-template-columns: repeat(auto-fill, 120px);
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, 160px);
-  }
-
-  @media (min-width: $bp-desktop-xl) {
-    grid-template-columns: repeat(auto-fill, 175px);
-  }
 }

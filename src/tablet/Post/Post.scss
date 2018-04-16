@@ -1,0 +1,11 @@
+@import '../Global/Vars/Global-Vars.scss';
+
+.Post {
+
+  @media (min-width: $bp-tablet) {
+    height: 245px;
+    grid-column: span 2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

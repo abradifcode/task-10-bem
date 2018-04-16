@@ -1,0 +1,9 @@
+@import '../../../Global/Vars/Global-Vars.scss';
+
+.Post-Actions_size_l {
+
+  @media (min-width: $bp-tablet) {
+    margin-top: 0;
+    width: 100%;
+  }
+}

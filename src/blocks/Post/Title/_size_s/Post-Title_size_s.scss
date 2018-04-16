@@ -4,15 +4,6 @@
   margin-bottom: 0;
   padding-left: 0;
   flex-shrink: 0;
-
-  @media (min-width: $bp-tablet) {
-    max-height: none;
-    line-height: 1.2;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    line-height: inherit;
-  }
 }
 
 .Post_hasImage .Post-Title_size_s {
@@ -28,24 +19,5 @@
 
   @media (min-width: $bp-phablet) {
     max-height: calc(17px * 1.4 * 5); /* 5 строк */
-  }
-
-  @media (min-width: $bp-tablet) {
-    max-width: 100%;
-    padding-left: 0;
-    max-height: calc(17px * 1.25 * 3); /* 3 строки */
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    max-height: calc(17px * 1.4 * 6); /* 6 строк */
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    max-height: calc(17px * 1.4 * 5); /* 5 строк */
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    position: static;
-    max-height: calc(17px * 1.4 * 6); /* 6 строк */
   }
 }

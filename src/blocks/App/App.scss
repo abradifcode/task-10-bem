@@ -9,25 +9,4 @@
     max-width: 585px;
     padding: 0;
   }
-
-  @media (min-width: $bp-tablet) {
-    padding: 0;
-    max-width: 704px;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    max-width: 1000px;
-  }
-
-  @media (min-width: $bp-desktop-m) {
-    max-width: 1135px;
-  }
-
-  @media (min-width: $bp-desktop-l) {
-    max-width: 1490px;
-  }
-
-  @media (min-width: $bp-desktop-xl) {
-    max-width: 1610px;
-  }
 }

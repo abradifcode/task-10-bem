@@ -7,10 +7,6 @@
   flex-shrink: 0;
   flex-direction: row;
   justify-content: space-between;
-
-  @media (min-width: $bp-tablet) {
-    margin-top: 0;
-  }
 }
 
 .PostActions__button {
@@ -31,6 +27,7 @@
   &:hover {
     color: #777;
   }
+
   &:focus {
     outline: none;
     color: #333;

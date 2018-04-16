@@ -3,10 +3,6 @@
 .Post-Content_size_s {
   margin-top: 0;
   flex-grow: 1;
-
-  @media (min-width: $bp-tablet) {
-    flex-direction: column;
-  }
 }
 
 .Post_hasImage .Post-Content_size_s {
@@ -20,16 +16,5 @@
     width: 100%;
     padding-left: 0;
     margin-top: auto;
-  }
-
-  @media (min-width: $bp-tablet) {
-    width: 35px;
-    margin-left: auto;
-    flex-grow: 1;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    width: 65px;
-    margin-left: auto;
   }
 }

@@ -6,12 +6,4 @@
   @media (min-width: $bp-bigphone) {
     padding-left: 0;
   }
-
-  @media (min-width: $bp-tablet) {
-    flex-grow: 1;
-  }
-
-  @media (min-width: $bp-desktop-s) {
-    max-width: none;
-  }
 }
