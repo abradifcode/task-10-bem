@@ -1,6 +1,7 @@
-@import '../Global/Vars/Global-Vars.scss';
+@import "../Global/Vars/Global-Vars.scss";
 
 .App {
+
   @media (min-width: $bp-tablet) {
     padding: 0;
     max-width: 704px;

@@ -1,6 +1,7 @@
-@import '../../Global/Vars/Global-Vars.scss';
+@import "../../Global/Vars/Global-Vars.scss";
 
 .Post_size_s {
+
   @media (min-width: $bp-desktop-s) {
     margin-bottom: 0;
     grid-column-gap: 20px;
@@ -25,8 +26,8 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr;
       grid-template-areas:
-          "img title"
-          "img content";
+        "img title"
+        "img content";
     }
 
     @media (min-width: $bp-desktop-l) {

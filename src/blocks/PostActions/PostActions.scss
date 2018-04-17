@@ -1,46 +1,58 @@
 @import '../Global/Vars/Global-Vars.scss';
 
-.PostActions {
-  min-width: 25px;
-  margin-top: 10px;
-  display: flex;
-  flex-shrink: 0;
-  flex-direction: row;
-  justify-content: space-between;
+.PostActions
+{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-between;
+
+    min-width: 25px;
+    margin-top: 10px;
 }
 
-.PostActions__button {
-  position: relative;
-  width: 100%;
-  width: 25px;
-  height: 25px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: none;
-  border: none;
-  border-radius: 3px;
-  color: #D3D3D3;
-  cursor: pointer;
+.PostActions__button
+{
+    position: relative;
 
-  &:hover {
-    color: #777;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  &:focus {
-    outline: none;
-    color: #333;
-    box-shadow: 0 0 0 2px steelblue;
-  }
+    width: 100%;
+    width: 25px;
+    height: 25px;
+    padding: 0;
 
-  &::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -5px;
-    right: -10px;
-    bottom: -5px;
-    left: -10px;
-  }
+    cursor: pointer;
+
+    color: #d3d3d3;
+    border: none;
+    border-radius: 3px;
+    background: none;
+
+    &:hover
+    {
+        color: #777;
+    }
+
+    &:focus
+    {
+        color: #333;
+        outline: none;
+        box-shadow: 0 0 0 2px steelblue;
+    }
+
+    &::before
+    {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        bottom: -5px;
+        left: -10px;
+
+        display: block;
+
+        content: '';
+    }
 }

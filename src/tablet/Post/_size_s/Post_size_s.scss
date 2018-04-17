@@ -1,4 +1,4 @@
-@import '../../Global/Vars/Global-Vars.scss';
+@import "../../Global/Vars/Global-Vars.scss";
 
 .Post_size_s {
 
@@ -10,6 +10,7 @@
   }
 
   &.Post_hasImage {
+
     @media (min-width: $bp-tablet) {
       flex-wrap: wrap;
     }

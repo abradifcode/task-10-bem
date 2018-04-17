@@ -1,8 +1,11 @@
 @import '../Global/Vars/Global-Vars.scss';
 
-.Post {
-  position: relative;
-  margin-bottom: 25px;
-  display: flex;
-  flex-wrap: wrap;
+.Post
+{
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 25px;
 }

@@ -10,7 +10,10 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm-run-all build-css build-js",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "jslint": "eslint '**/*.js'",
+    "csslint": "stylelint src/**/*.scss",
+    "lint": "npm run jslint && npm run csslint"
   },
   "dependencies": {
     "express": "^4.16.3",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "@bem/sdk.naming.entity": "^0.2.4",
+    "babel-plugin-bem-import": "1.5.3",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
@@ -25,15 +29,15 @@
     "bem-tools-core": "0.0.3",
     "bem-tools-create": "2.2.0",
     "eslint": "4.4.1",
+    "jest-cli": "22.4.3",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "react": "16.3.1",
     "react-app-rewired": "1.5.0",
     "react-dom": "16.3.1",
     "react-scripts": "1.0.17",
-    "babel-plugin-bem-import": "1.5.3",
-    "jest-cli": "22.4.3",
-    "rewire-bem-sets": "1.0.1"
+    "rewire-bem-sets": "1.0.1",
+    "stylelint-config-standard": "^18.2.0"
   },
   "jest": {
     "transform": {

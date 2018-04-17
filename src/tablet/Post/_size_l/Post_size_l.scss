@@ -1,4 +1,4 @@
-@import '../../Global/Vars/Global-Vars.scss';
+@import "../../Global/Vars/Global-Vars.scss";
 
 .Post_size_l {
 
@@ -6,8 +6,8 @@
     margin-bottom: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-        "img img title"
-        "img img content";
+      "img img title"
+      "img img content";
     grid-column: span 6;
   }
 }

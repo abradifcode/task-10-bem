@@ -1,15 +1,19 @@
 @import '../Global/Vars/Global-Vars.scss';
 
-.Posts {
-  @media (min-width: $bp-bigphone) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
-  }
+.Posts
+{
+    @media (min-width: $bp-bigphone)
+    {
+        display: grid;
 
-  @media (min-width: $bp-phablet) {
-    grid-template-columns: repeat(auto-fill, 135px);
-    grid-column-gap: 15px;
-    grid-auto-flow: dense;
-  }
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+
+    @media (min-width: $bp-phablet)
+    {
+        grid-template-columns: repeat(auto-fill, 135px);
+        grid-column-gap: 15px;
+        grid-auto-flow: dense;
+    }
 }
