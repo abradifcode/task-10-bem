@@ -1,7 +1,7 @@
 const express = require('express')
 const useragent = require('express-useragent')
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 const staticDir = __dirname + '/build/'
 
 app.use(useragent.express());
