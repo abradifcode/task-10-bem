@@ -14,7 +14,8 @@
     "csslint": "stylelint src/**/*.scss",
     "cssformat": "stylefmt --config .stylelintrc --recursive src/**/*.scss",
     "jslint": "eslint '**/*.js'",
-    "lint": "npm run jslint && npm run csslint"
+    "lint": "npm run jslint && npm run csslint",
+    "deploy": "npm run build && docker build -t task-10-bem . && heroku container:push web --app task-10-bem"
   },
   "dependencies": {
     "express": "^4.16.3",
