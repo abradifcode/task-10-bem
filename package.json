@@ -8,6 +8,7 @@
     "start-js": "react-app-rewired start",
     "build-js": "react-app-rewired build",
     "start": "npm-run-all -p watch-css start-js",
+    "express": "npm run build && node index.js",
     "build": "npm-run-all build-css build-js",
     "test": "jest",
     "eject": "react-scripts eject",
