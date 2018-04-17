@@ -6,3 +6,10 @@
     height: 25px;
   }
 }
+
+.Post_hasImage .Post-Actions_size_s {
+  @media (min-width: $bp-desktop-s) {
+    width: 65px;
+    flex-direction: row;
+  }
+}

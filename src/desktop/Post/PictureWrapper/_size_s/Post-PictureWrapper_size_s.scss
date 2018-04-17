@@ -1,0 +1,13 @@
+@import "../../../Global/Vars/Global-Vars.scss";
+
+.Post-PictureWrapper_size_s {
+
+  @media (min-width: $bp-desktop-s) {
+    position: static;
+    max-height: 180px;
+  }
+
+  @media (min-width: $bp-desktop-m) {
+    justify-content: flex-start;
+  }
+}
