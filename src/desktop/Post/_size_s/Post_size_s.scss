@@ -17,6 +17,7 @@
   }
 
   &.Post_hasImage {
+
     @media (min-width: $bp-desktop-s) {
       min-height: 100px;
       height: auto;
@@ -25,9 +26,7 @@
       grid-column-gap: 20px;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr;
-      grid-template-areas:
-        "img title"
-        "img content";
+      grid-template-areas: "img title" "img content";
     }
 
     @media (min-width: $bp-desktop-l) {

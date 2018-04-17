@@ -4,38 +4,27 @@
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
-
   display: grid;
   grid-gap: 10px;
   grid-template-rows: auto auto 1fr;
-  grid-template-areas:
-        "img"
-        "title"
-        "content";
+  grid-template-areas: "img" "title" "content";
 
   @media (min-width: 400px) {
     grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-        "title title title"
-        "img content content";
+    grid-template-areas: "title title title" "img content content";
   }
 
   @media (min-width: $bp-bigphone) {
     grid-column-gap: inherit;
     grid-column: span 1;
     grid-template-columns: 1fr;
-    grid-template-areas:
-        "title"
-        "img"
-        "content";
+    grid-template-areas: "title" "img" "content";
   }
 
   @media (min-width: $bp-phablet) {
     grid-column: span 4;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
-    grid-template-areas:
-        "img title"
-        "img content";
+    grid-template-areas: "img title" "img content";
   }
 }

@@ -1,58 +1,46 @@
 @import '../Global/Vars/Global-Vars.scss';
 
-.PostActions
-{
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 0;
-    justify-content: space-between;
-
-    min-width: 25px;
-    margin-top: 10px;
+.PostActions {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-between;
+  min-width: 25px;
+  margin-top: 10px;
 }
 
-.PostActions__button
-{
-    position: relative;
+.PostActions__button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  cursor: pointer;
+  color: #D3D3D3;
+  border: none;
+  border-radius: 3px;
+  background: none;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &:hover {
+    color: #777;
+  }
 
-    width: 100%;
-    width: 25px;
-    height: 25px;
-    padding: 0;
+  &:focus {
+    color: #333;
+    outline: none;
+    box-shadow: 0 0 0 2px steelblue;
+  }
 
-    cursor: pointer;
-
-    color: #d3d3d3;
-    border: none;
-    border-radius: 3px;
-    background: none;
-
-    &:hover
-    {
-        color: #777;
-    }
-
-    &:focus
-    {
-        color: #333;
-        outline: none;
-        box-shadow: 0 0 0 2px steelblue;
-    }
-
-    &::before
-    {
-        position: absolute;
-        top: -5px;
-        right: -10px;
-        bottom: -5px;
-        left: -10px;
-
-        display: block;
-
-        content: '';
-    }
+  &::before {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    bottom: -5px;
+    left: -10px;
+    display: block;
+    content: "";
+  }
 }

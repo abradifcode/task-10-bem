@@ -1,16 +1,14 @@
 @import "../../Global/Vars/Global-Vars.scss";
 
 .Post_size_m {
+
   @media (min-width: $bp-desktop-s) {
     height: auto;
     margin-bottom: 0;
     grid-column: span 3;
     grid-column-gap: 25px;
     grid-template-columns: repeat(2, 1fr);
-
-    grid-template-areas:
-        "title title"
-        "img content";
+    grid-template-areas: "title title" "img content";
   }
 
   @media (min-width: $bp-desktop-m) {
@@ -25,8 +23,6 @@
 
   @media (min-width: $bp-desktop-xl) {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-        "img title title"
-        "img content content";
+    grid-template-areas: "img title title" "img content content";
   }
 }

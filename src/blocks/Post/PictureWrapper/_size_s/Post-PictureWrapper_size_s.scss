@@ -1,6 +1,7 @@
 @import "../../../Global/Vars/Global-Vars.scss";
 
 .Post-PictureWrapper_size_s {
+
   @media (min-width: 400px) {
     width: auto;
     max-height: 140px;

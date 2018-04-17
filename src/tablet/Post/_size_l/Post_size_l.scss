@@ -5,9 +5,7 @@
   @media (min-width: $bp-tablet) {
     margin-bottom: 30px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-      "img img title"
-      "img img content";
+    grid-template-areas: "img img title" "img img content";
     grid-column: span 6;
   }
 }

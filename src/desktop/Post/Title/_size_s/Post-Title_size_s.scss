@@ -3,8 +3,8 @@
 .Post-Title_size_s {
 
   @media (min-width: $bp-desktop-s) {
-    line-height: inherit;
     max-height: calc(17px * 1.4 * 2); /* 2 строки */
+    line-height: inherit;
   }
 }
 

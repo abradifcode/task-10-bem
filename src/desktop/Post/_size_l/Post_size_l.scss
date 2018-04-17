@@ -6,9 +6,7 @@
     margin-bottom: 0;
     grid-column-gap: 25px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-        "img title"
-        "img content";
+    grid-template-areas: "img title" "img content";
     grid-column: span 6;
   }
 

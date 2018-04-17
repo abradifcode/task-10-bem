@@ -3,9 +3,7 @@
 .Post_size_s {
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-template-areas:
-          "title"
-          "content";
+  grid-template-areas: "title" "content";
 
   @media (min-width: $bp-bigphone) {
     align-items: flex-start;
@@ -23,31 +21,22 @@
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-          "img title"
-          "content content";
+    grid-template-areas: "img title" "content content";
 
     @media (min-width: 400px) {
-      grid-template-areas:
-          "img title"
-          "img content";
+      grid-template-areas: "img title" "img content";
     }
 
     @media (min-width: $bp-bigphone) {
       grid-template-columns: 1fr;
       grid-template-rows: auto 1fr auto;
-      grid-template-areas:
-          "title"
-          "img"
-          "content";
+      grid-template-areas: "title" "img" "content";
     }
 
     @media (min-width: $bp-phablet) {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr;
-      grid-template-areas:
-          "img title"
-          "img content";
+      grid-template-areas: "img title" "img content";
     }
   }
 }

@@ -1,6 +1,7 @@
 @import "../Global/Vars/Global-Vars.scss";
 
 .App {
+
   @media (min-width: $bp-desktop-s) {
     max-width: 1000px;
   }
