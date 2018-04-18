@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import { decl } from 'bem-react-core';
 
 export default decl({
@@ -10,8 +9,6 @@ export default decl({
     },
 
     content() {
-      return (
-        <Fragment>{this.props.description}</Fragment>
-      )
+      return this.props.description;
     }
 });
