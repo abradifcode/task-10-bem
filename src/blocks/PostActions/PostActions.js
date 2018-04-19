@@ -16,13 +16,3 @@ export default decl({
       );
   }
 });
-
-// <button className="PostActions__button" type="button">
-//             <span className="visuallyhidden">Открыть меню</span>
-//             <svg className="icon icon--dots"><use xlinkHref="#dots"/></svg>
-//           </button>
-
-//           <button className="PostActions__button" type="button">
-//             <span className="visuallyhidden">Открыть меню</span>
-//             <svg className="icon icon--heart"><use xlinkHref="#heart"/></svg>
-//           </button>
