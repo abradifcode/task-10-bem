@@ -33,7 +33,7 @@ module.exports = {
       plugins: {
         create: {
           levels: {
-            'src/desktop': { default: true }
+            'src/blocks': { default: true }
           },
           techs: ['js', 'scss'],
           templates: {
