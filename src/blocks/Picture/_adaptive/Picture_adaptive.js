@@ -4,9 +4,6 @@ import { declMod } from 'bem-react-core';
 export default declMod({ adaptive: true }, {
     block: 'Picture',
     tag: 'picture',
-    mods({mods}) {
-      return mods;
-    },
     attrs() {
       return {}
     },
@@ -32,13 +29,7 @@ export default declMod({ adaptive: true }, {
 
 function getImageData(data) {
   let pathArr = data.image.split('/');
-  pathArr = pathArr.filter(item => {
-    if (item) {
-      return item;
-    }
-
-    return false;
-  });
+  pathArr = pathArr.filter(Boolean);
   const fullName = pathArr[pathArr.length - 1];
 
   const fullNameArr = fullName.split('.');
